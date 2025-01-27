@@ -75,6 +75,7 @@ blockquote {
 
 .header_menu-item{
   text-indent: 5px;
+  list-style-type:circle;
 }
 
 .prosmotrLot{
