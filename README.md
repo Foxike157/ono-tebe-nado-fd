@@ -1,1 +1,1 @@
-https://github.com/Foxike157/ono-tebe-nado
+https://github.com/Foxike157/ono-tebe-nado-fd
