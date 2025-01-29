@@ -24,75 +24,71 @@ blockquote {
 
 
 .header{   
-  display:flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 86px 24px 80px 24px;
-  flex-direction: row;
-
+display:flex;
+justify-content: flex-end;
+align-items: center;
+padding: 86px 24px 80px 24px;
+flex-direction: row;
 }
 
 
 .header_menu{
-  display: flex;
-  padding-right: 41px;
-  padding-top: 0px;
-  line-height: 90%;
+display: flex;
+padding-right: 41px;
+padding-top: 0px;
+line-height: 90%;
 }
  
 .header_menu-link{
-  font-size: 18px;
-  list-style-type: circle;
-  color: #000000;
+font-size: 18px;
+list-style-type: circle;
+color: #000000;
 }
 
 .home-page{
-  padding-right: 30px;
-  list-style: none;
-  
+padding-right: 30px;
+list-style: none;
 }
 
 .header_menu-link-gl{
-  font-size: 18px;
-  color: #000000;
-  text-decoration: none;
+font-size: 18px;
+color: #000000;
+text-decoration: none;
 }
 
 .header_menu-item{
-  text-indent: 5px;
-  list-style-type:circle;
+text-indent: 5px;
+list-style-type:circle;
 }
 
 .prosmotrLot{
-  padding-right: 29px;
-
+padding-right: 29px;
 }
 
 
 
-.salka{ color: #000;
-
+.salka{ 
+color: #000;
 }
 .namber{
-  color: #000;
-
+color: #000;
 }
 
 .head_logo{
-  display: block;
-  width: 140.11px;
-  padding-right: 328px;
-  padding-bottom: 12px;
-  padding-top: 4px;
+display: block;
+width: 140.11px;
+padding-right: 328px;
+padding-bottom: 12px;
+padding-top: 4px;
 }
 
 
 .header_logo-image {
-  width: 138px;
+width: 138px;
 }
 
 .header_menu-list{
-  display: flex;
+display: flex;
 }
 
 .address{
@@ -106,15 +102,15 @@ line-height: 122%;
 }
 
 .cover{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 757px;
-  background-image: url(/images/cover.jpg) ;
-  background-size: cover;
-  background-position:center;
-  position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 757px;
+background-image: url(/images/cover.jpg) ;
+background-size: cover;
+background-position:center;
+position: relative;
 }
 
 .container {
@@ -123,141 +119,137 @@ display: flex;
 flex-direction: column;
 width: 1100px;
 color: white;
-
 }
 
 .acnt-text{
-  font-size: 100px;
-  letter-spacing: 30px;
-  padding-right: 0px;
+font-size: 100px;
+letter-spacing: 30px;
+padding-right: 0px;
 }
 
 .acnt-tet{
-  font-size: 100px;
-  letter-spacing: 60px;
+font-size: 100px;
+letter-spacing: 60px;
 }
 
 .txtL{
-  transform: translateY(-37px);
+transform: translateY(-37px);
 }
 
 .acnt-text_l{
-  font-size: 100px;
-  letter-spacing: 60px;
+font-size: 100px;
+letter-spacing: 60px;
 }
 
 .text-left {
- padding-left: 50px;
+padding-left: 50px;
 }
 
 .text_centr{
-  text-align: center;
-  transform: translateY(-27px);
+text-align: center;
+transform: translateY(-27px);
 }
 
 .text_right{
-  text-align: right;
-  transform: translate(-20px, -25px);
+text-align: right;
+transform: translate(-20px, -25px);
 }
 
-.acnt_down{ font-size: 100px;
-  letter-spacing: 60px;
-
+.acnt_down{ 
+font-size: 100px;
+letter-spacing: 60px;
 }
 
 .cover_bottom{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 82px;
-  padding-right: 49px;
-  padding-top: 102px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 82px;
+padding-right: 49px;
+padding-top: 102px;
 }
 
 .cover_bottom-text{
-  color: #FFF;
-    font-size: 22px;
-    text-transform: uppercase;
-    word-spacing: 18px;
-    line-height: 1.27;
-    padding-top: 4px;
+color: #FFF;
+font-size: 22px;
+text-transform: uppercase;
+word-spacing: 18px;
+line-height: 1.27;
+padding-top: 4px;
 }
 
 .button{
-  border: 1px #FFF solid;
-  padding: 14px 32px 12px 33px;
-  font-family: 'Raleway', sans-serif;
-  color: #FFF;
-  font-size: 22px;
-  line-height: 1;
-  text-transform: uppercase;
-  background-color: transparent;
-  transition: transform 0.3s ease;
-  cursor: pointer;
+border: 1px #FFF solid;
+padding: 14px 32px 12px 33px;
+font-family: 'Raleway', sans-serif;
+color: #FFF;
+font-size: 22px;
+line-height: 1;
+text-transform: uppercase;
+background-color: transparent;
+transition: transform 0.3s ease;
+cursor: pointer;
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+background: rgba(0, 0, 0, 0.5);
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
 }
 
 
 .lots {
-  padding: 179px 24px 149px 24px;
- 
-  
+padding: 179px 24px 149px 24px;
 }
 
 .lots__heading {
-  color: #000;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 1;
-  text-transform: uppercase;
-  padding: 6px 6px 27px 40px;
+color: #000;
+font-weight: bold;
+font-size: 40px;
+line-height: 1;
+text-transform: uppercase;
+padding: 6px 6px 27px 40px;
 }
 
 .lots__card-list {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 25px 25px;
-  list-style: none;
-  margin-bottom: 30px;
-  
+display: flex;
+flex-wrap: nowrap;
+gap: 25px 25px;
+list-style: none;
+margin-bottom: 30px; 
 }
 
 .card-link {
-  display: block;
-  height: 100%;
-  text-decoration: none;
+display: block;
+height: 100%;
+text-decoration: none;
 }
 
 .card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  width: 334px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
+width: 334px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 }
 
 .overlay-card{
-  inset: 0;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: 1;
+inset: 0;
+position: absolute;
+background: rgba(0, 0, 0, 0.6);
+z-index: 1;
 }
 
 .card_type_film {
-  background-image: url(/images/card-lot-01.jpg);
+  
+background-image: url(/images/card-lot-01.jpg);
 }
 
 .card_type_book {
@@ -390,7 +382,8 @@ padding: 22px 24px 120px 24px;
 
 }
 .about_log{
-  width: 148px;}
+  width: 148px;
+}
 
 .logo-white{
   padding: 11px 0px 0px 48px;
@@ -466,10 +459,6 @@ padding-top: 4px;
   color: #000;
   border-bottom: 1px solid;
 }
-
-/*.footer-img{
-  width: 48px;
-}*/
 
 img{
   width: 48px;
