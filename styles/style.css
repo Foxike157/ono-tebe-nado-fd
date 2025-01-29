@@ -219,8 +219,7 @@ display: flex;
 flex-wrap: nowrap;
 gap: 25px 25px;
 list-style: none;
-margin-bottom: 30px; 
-}
+margin-bottom: 30px; }
 
 .card-link {
 display: block;
