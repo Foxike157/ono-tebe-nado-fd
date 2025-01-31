@@ -28,7 +28,8 @@ blockquote {
   justify-content: flex-end;
   align-items: center;
   padding: 86px 24px 80px 24px;
-  flex-direction: row;   
+  flex-direction: row;
+
 }
 
 
@@ -64,8 +65,6 @@ list-style-type:circle;
 .prosmotrLot {
 padding-right: 29px;
 }
-
-
 
 .salka { 
   color: #000;
@@ -155,6 +154,7 @@ transform: translate(-20px, -25px);
 }
 
 .acnt_down { 
+  
   font-size: 100px;
   letter-spacing: 60px;
 }
