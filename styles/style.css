@@ -31,7 +31,7 @@ blockquote {
 
 .header_menu {
   display: flex;
-  padding-right: 41px;
+  padding-right: 39px;
   line-height: 90%;
   padding-bottom: 3px;
 }
@@ -43,7 +43,7 @@ blockquote {
 }
 
 .home-page {
-  padding-right: 30px;
+  padding-right: 27px;
   list-style: none;
 }
 
@@ -58,8 +58,8 @@ blockquote {
   list-style-type: circle;
 }
 
-.prosmotrLot {
-  padding-right: 29px;
+.view_lots {
+  padding-right: 31px;
 }
 
 .link-mail {
@@ -73,9 +73,9 @@ blockquote {
 .head_logo {
   display: block;
   width: 140.11px;
-  padding-right: 328px;
+  padding-right: 326px;
   padding-bottom: 12px;
-  padding-top: 4px;
+  padding-top: 5px;
 }
 
 .header_logo-image {
@@ -410,7 +410,7 @@ blockquote {
   color: #000;
 }
 
-.prosmotrLot_footer {
+.view_lots_footer {
   text-decoration: none;
   color: #000;
   border-bottom: 1px solid;
