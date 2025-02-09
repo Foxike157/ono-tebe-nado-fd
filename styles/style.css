@@ -1,3 +1,9 @@
+body {
+  font-weight: 400;
+  background-color: #ffffff;
+}
+
+
 .header {
   display: flex;
   justify-content: flex-end;
