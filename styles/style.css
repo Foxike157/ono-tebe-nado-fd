@@ -97,12 +97,12 @@
 
 .letter-spacing {
   padding-left: 6px;
-  letter-spacing: 60px;
+  letter-spacing: 30px;
 }
 
 .aligned-text-center {
-  padding-left: 337px;
-  padding-top: 9px;
+  padding-left: 381px;
+  padding-top: 17px;
 }
 
 .letter-spacing-center {
@@ -110,13 +110,13 @@
 }
 
 .letter-spacing-center-right {
-  letter-spacing: 60px;
+  letter-spacing: 30px;
 }
 
 .aligned-text-down {
   display: flex;
   justify-content: flex-end;
-  padding-top: 3px;
+  padding-top: 18px;
   padding-right: 50px;
 }
 
@@ -125,14 +125,14 @@
 }
 
 .letter-spacing-down {
-  letter-spacing: 60px;
+  letter-spacing: 30px;
 }
 
 .cover_bottom {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-top: 127px;
+  padding-top: 104px;
   z-index: 2;
   padding-right: 50px;
 }
@@ -142,8 +142,8 @@
   font-size: 22px;
   text-transform: uppercase;
   word-spacing: 18px;
-  line-height: 1.27;
-  padding-right: 79px;
+  /*line-height: 1.27;*/
+  padding-right: 107px;
 
 }
 
@@ -190,6 +190,13 @@
   gap: 25px;
   margin-bottom: 30px;
 }
+
+
+.lost__card-list-item {
+  width: 334px;
+  min-height: 590px;
+}
+
 
 .card-link {
   display: block;
@@ -242,7 +249,7 @@
   color: #fff;
   font-size: 20px;
   z-index: 1;
-  line-height: 118%;
+  line-height: 120%;
   padding: 0 40px 47px 39px;
 }
 
@@ -261,7 +268,7 @@
 }
 
 .logo-white {
-  margin: 32px 72px 0 47px;
+  margin: 5px 72px 0 47px;
 }
 
 .about_logo {
@@ -279,7 +286,7 @@
 }
 
 .about__container {
-  margin: 133px 0 13px 0;
+  margin: 106px 0 13px 0;
 }
 
 .about-text {
@@ -304,7 +311,7 @@
 }
 
 .footer {
-  padding: 52px 24px 0 24px;
+  padding: 52px 24px 75px 24px;
   display: flex;
   align-items: center;
 }
