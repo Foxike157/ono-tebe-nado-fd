@@ -77,16 +77,10 @@
   background-position: center;
   position: relative;
   flex-direction: column;
-  padding: 163px 50px 54px 50px;
+  padding-top: 165px;
+    padding-bottom: 50px;
 }
 
-.overlay {
-  inset: 0px;
-  position: absolute;
-  background: rgba(0, 0, 0, 1);
-  z-index: 1;
-  opacity: 0.6;
-}
 
 .text-style {
   display: flex;
@@ -97,14 +91,18 @@
   z-index: 1;
 }
 
+.aligned-text {
+  padding-left: 50px;
+}
+
 .letter-spacing {
   padding-left: 6px;
   letter-spacing: 60px;
 }
 
 .aligned-text-center {
-  padding-left: 285px;
-  padding-top: 7px;
+  padding-left: 337px;
+  padding-top: 9px;
 }
 
 .letter-spacing-center {
@@ -119,6 +117,7 @@
   display: flex;
   justify-content: flex-end;
   padding-top: 3px;
+  padding-right: 50px;
 }
 
 .letter-spacing-center-text-down {
@@ -135,6 +134,7 @@
   align-items: center;
   padding-top: 127px;
   z-index: 2;
+  padding-right: 50px;
 }
 
 .cover_bottom-text {
@@ -143,8 +143,8 @@
   text-transform: uppercase;
   word-spacing: 18px;
   line-height: 1.27;
-  padding-right: 78px;
-  padding-top: 5px;
+  padding-right: 79px;
+
 }
 
 .button {
@@ -158,6 +158,17 @@
   background-color: transparent;
   cursor: pointer;
 }
+
+
+.overlay {
+  inset: 0px;
+  position: absolute;
+  background: rgba(0, 0, 0, 1);
+  z-index: 1;
+  opacity: 0.6;
+}
+
+
 
 .lots {
   padding: 179px 24px 149px 24px;
