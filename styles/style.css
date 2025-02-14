@@ -8,11 +8,15 @@
 
 .header_menu {
   display: flex;
-  padding-right: 42px;
   line-height: 90%;
-  padding-bottom: 3px;
+  padding-bottom: 12px;
   font-size: 18px;
   color: #000000;
+  padding-right: 6px;
+}
+
+.header__link {
+  padding-right: 17px;
 }
 
 .header_menu-list {
@@ -23,21 +27,20 @@
   text-decoration: none;
 }
 
+.header__link_active_view-lots {
+  padding-right: 36px;
+}
+
 .header__links-list-item_no-bullit {
   list-style-type: none;
   text-decoration: none;
-  padding-right: 32px;
+  padding-right: 14px;
 }
 
 .header__links-list-item {
   list-style-type: circle;
   text-underline-offset: 3px;
-  padding-right: 35px;
-}
-
-.header__links-list-item_auction {
-  list-style-type: circle;
-  text-underline-offset: 3px;
+  padding-right: 19px;
 }
 
 .link-address {
@@ -282,15 +285,12 @@
 }
 
 .about-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  color: #000;
+  font-size: 20px;
   padding-right: 3px;
-  color: #000;
-  font-size: 20px;
-}
-
-.about-text-bottom {
-  margin-top: 25px;
-  color: #000;
-  font-size: 20px;
 }
 
 .about__title {
@@ -310,7 +310,7 @@
 
 .address_footer {
   padding-left: 26px;
-  padding-right: 218px;
+  padding-right: 184px;
   line-height: 140%;
 }
 
@@ -333,7 +333,7 @@
 .footer__menu-link {
   text-decoration: none;
   color: #000;
-  border-bottom: 1px solid;
+  text-underline-offset: 3px;
 }
 
 img {
